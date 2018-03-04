@@ -7,7 +7,7 @@ export default class Sum extends Component {
             this.state = {
             firstNumber: 0,
             secondNumber: 0,
-            sum: 0,
+            sum: null,
         }
     }
 
