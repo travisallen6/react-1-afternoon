@@ -25,7 +25,7 @@ export default class Palindrome extends Component {
 
     render(){
         return (
-            <div className='puzzleBox filterString PB'>
+            <div className='puzzleBox filterStringPB'>
                 <h4>Palindrome</h4>
                 <input className='inputLine' onChange={ (e) => this.updateInput(e.target.value) }/>
                 <button className='confirmationButton' onClick={ ( ) => this.checkPalindrome(this.state.userInput)}>Check</button>
